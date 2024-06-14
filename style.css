@@ -32,6 +32,10 @@ h1:hover {
   box-shadow: none;
 }
 
+footer {
+  display: none;
+}
+
 @media (max-width: 720px) {
   h1 {
     display: none;
@@ -76,6 +80,11 @@ h1:hover {
     box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3);
     background-color: white;
     border-radius: 10px;
+    transition: all .4s ease;
+  }
+
+  main .submain:hover {
+    box-shadow: none;
   }
 
   main .audio-card {
@@ -123,6 +132,7 @@ h1:hover {
   }
 
   footer {
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     width: 100%;
